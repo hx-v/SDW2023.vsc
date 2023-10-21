@@ -23,7 +23,7 @@ openai_api_key = 'TODO'
 # Extract
 
 # Extraia a lista de IDs de usuário a partir do arquivo CSV. 
-df = pd.read_csv('SDW2023.csv')
+df = pd.read_csv('SDW2023.vsc')
 user_ids = df['UserID'].tolist()
 
 # 💡 Inovação: Adicionamos 3 novos usuários
